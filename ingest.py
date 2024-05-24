@@ -1,6 +1,6 @@
 import os
-import nest_asyncio  # noqa: E402
-nest_asyncio.apply()
+#import nest_asyncio  # noqa: E402
+#nest_asyncio.apply()
 
 # bring in our LLAMA_CLOUD_API_KEY
 from dotenv import load_dotenv
@@ -65,7 +65,7 @@ def create_vector_database():
     """
     # Call the function to either load or parse the data
     llama_parse_documents = load_or_parse_data()
-    print(llama_parse_documents[1].text[:100])
+    # print(llama_parse_documents[1].text[:100])
     
     with open('data/output.md', 'a') as f:  # Open the file in append mode ('a')
         for doc in llama_parse_documents:

@@ -104,7 +104,8 @@ async def main(message):
     #answer = answer.replace(".", ".\n")
     source_documents = res["source_documents"]
 
-    text_elements = []  # type: List[cl.Text]
+    text_elements = []  
+    # type:List[cl.Text]
 
     if source_documents:
         for source_idx, source_doc in enumerate(source_documents):
