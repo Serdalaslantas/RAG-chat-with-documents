@@ -36,3 +36,4 @@ chainlit run app.py
 - [Advanced demo with Reranker](https://github.com/run-llama/llama_parse/blob/main/examples/demo_advanced.ipynb)
 - [Parsing instructions Llamaparse](https://colab.research.google.com/drive/1dO2cwDCXjj9pS9yQDZ2vjg-0b5sRXQYo#scrollTo=dEX7Mv9V0UvM)
 
+# Chat-with-your-docs
